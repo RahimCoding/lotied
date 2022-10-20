@@ -1,4 +1,7 @@
 function eqArrays(value1, value2) {
+  if(value1.length !== value2.length){
+    return false
+  }
   for (let i = 0; i < value1.length; i++) {
     if (value1[i] !== value2[i]) {
       return false
@@ -9,7 +12,7 @@ function eqArrays(value1, value2) {
 }
 
 const assertArraysEqual = function(actual, expected){
-  if (actual === expected) {
+  if (eqArrays(actual, expected)) {
     console.log("ITS TRUE")
   } else {
     console.log("ITS FALSE")
