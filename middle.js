@@ -18,9 +18,11 @@ result.push(array[index])
   result.push(array[index1])
   result.push(array[index2])
 }
-console.log(result)
 return result
 }
 
 
 module.exports = middle
+
+console.log(middle([1])) // => []
+middle([1, 2]) // => []
