@@ -19,9 +19,6 @@ const countLetters = function(allItems){
     }
   }
   return results
-
 }
-// console.log(countLetters('LHL'))
-// countLetters('LHL')
 
-console.log(countLetters("lighthouse in the house"))
+module.exports = countLetters

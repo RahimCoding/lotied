@@ -8,6 +8,8 @@ const map = function (array, callback) {
   return results;
 }
 
+module.exports = map
+
 function eqArrays(value1, value2) {
   if(value1.length !== value2.length){
     return false

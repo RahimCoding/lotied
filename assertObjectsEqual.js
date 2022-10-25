@@ -12,6 +12,7 @@ const eqObjects = function (object1, object2) {
   return true
 };
 
+
 // FUNCTION IMPLEMENTATION
 const assertObjectsEqual = function (actual, expected){
   if (actual === expected) {
@@ -20,6 +21,8 @@ const assertObjectsEqual = function (actual, expected){
     console.log("ITS FALSE")
   }
 }
+
+module.exports = assertObjectsEqual
 
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };

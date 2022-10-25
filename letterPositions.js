@@ -18,6 +18,8 @@ const letterPositions = function (sentence) {
   return results;
 };
 
+module.exports = letterPositions
+
 function eqArrays(value1, value2) {
   if (value1.length === value2.length) {
     for (let i = 0; i < value1.length; i++) {
@@ -41,4 +43,3 @@ function assertArraysEqual(array1, array2) {
 
 
 
-assertArraysEqual(letterPositions("hello").e, [1]);

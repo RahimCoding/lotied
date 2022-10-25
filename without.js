@@ -48,6 +48,7 @@ function without(originalArray, itemsToRemoveFromArray) {
   } console.log(newArray)
 }
 
+module.exports = without
 
 
 without([1, 2, 3], [1]) // => [2, 3]
