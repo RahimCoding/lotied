@@ -14,7 +14,7 @@ const eqObjects = function (object1, object2) {
 
 // FUNCTION IMPLEMENTATION
 const assertObjectsEqual = function (actual, expected){
-  if (eqObjects(actual, expected)) {
+  if (actual === expected) {
     console.log("ITS TRUE")
   } else {
     console.log("ITS FALSE")

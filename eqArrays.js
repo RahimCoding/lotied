@@ -8,21 +8,9 @@ function eqArrays(value1, value2) {
       return false
     }
   }
-  console.log("check everything:")
   return true
 }
 
+module.exports = eqArrays;
 
-
-
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${[actual]} === ${[expected]}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${[actual]} === ${[expected]}`);
-  }
-};
-
-// TEST CODE
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
-assertEqual(eqArrays([1, 3, 3], [1, 2, 4]), false); // => should FAIL
+const assertEqual = require('./assertEqual'); 
