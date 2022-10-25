@@ -33,12 +33,12 @@ const assertArraysEqual = function(actual, expected){
 
 
 const results1 = map(words, word => word[0]);
-console.log(results1);
+// console.log(results1);
 
-const expectedResult = [ 'g', 'c', 't', 'm', 't' ] // should pass
-const expectedResult2 = [ 'g', '3', 't', 't' ] //should fail
-const expectedResult3 = [ 'g', 'c', '4', 'm', 't' ] //should fail
+// const expectedResult = [ 'g', 'c', 't', 'm', 't' ] // should pass
+// const expectedResult2 = [ 'g', '3', 't', 't' ] //should fail
+// const expectedResult3 = [ 'g', 'c', '4', 'm', 't' ] //should fail
 
-assertArraysEqual(results1, expectedResult)
-assertArraysEqual(results1, expectedResult2)
-assertArraysEqual(results1, expectedResult3)
+// assertArraysEqual(results1, expectedResult)
+// assertArraysEqual(results1, expectedResult2)
+// assertArraysEqual(results1, expectedResult3)

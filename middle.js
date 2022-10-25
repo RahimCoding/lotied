@@ -24,5 +24,5 @@ return result
 
 module.exports = middle
 
-console.log(middle([1])) // => []
-middle([1, 2]) // => []
+// console.log(middle([1])) // => []
+// middle([1, 2]) // => []
